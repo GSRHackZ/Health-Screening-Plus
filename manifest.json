@@ -1,0 +1,14 @@
+{
+  "background_color": "white",
+  "description": "Makes instant health screening certificates, just enter your name.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Health Screening Plus+",
+  "short_name": "HS+",
+}
