@@ -5,7 +5,10 @@ const monthNames = ["January", "February", "March", "April", "May", "June","July
 const name_ = atob(urlParams.get("name"))
 const nameDisplay = document.getElementById("name_display_")
 const dateDisplay = document.getElementById("ver_msg_info");
-const _status = document.getElementById("_status")
+const _status = document.getElementById("_status");
+const splash = document.getElementsByClassName("splash")[0];
+const body = document.body;
+const html = document.getElementsByTagName("html")[0]
 let date_ = `${days[time("kronos").getDay()]}, ${monthNames[time("kronos").getMonth()]} ${time("kronos").getDate()}, ${time("kronos").getFullYear()} ${time("a")}`;
 nameDisplay.innerText=name_;
 dateDisplay.innerText = date_;
@@ -51,3 +54,16 @@ _status.addEventListener("click",function(){
     }
     localStorage.setItem("stat",this.getAttribute("stat"))
 })
+
+function start(wait){
+    setTimeout(function(){
+        splash.classList.remove("fade");
+        splash.classList.add("fadeout");
+        body.classList.add("fade");
+        body.classList.remove("lock");
+        html.classList.remove("lock");
+        splash.remove();
+    },wait)
+}
+
+start(3000)
