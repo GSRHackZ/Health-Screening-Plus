@@ -66,4 +66,4 @@ function start(wait){
     },wait)
 }
 
-start(750)
+start(1500)
