@@ -9,12 +9,12 @@ Makes instant health screening certificates, just enter your name.
   <li>Done! Now you have a health screening certificate.</li><br>
 </ol>
 
-
 <h3>Key points:</h3>
 <ul style="margin-bottom:10px;">
-<li>The certificate is dynamic, meaning you can bookmark the certificate & it will always be a new certificate 😲</li><br>
+<li>The certificate is dynamic, meaning you can bookmark the certificate & it will always be a new certificate. 😲</li><br>
+  <li>You can change your status from <b>GUEST</b> to <b>STUDENT</b> by clicking it. It will save automatically to that stat &<br> turn it into your default. 😉</li><br>
   <li>This removes the need to constantly repeat the same repetitive task of clicking <b>No</b> a bunch of times. 🙌</li><br>
-  <li>Please make sure to use this only if you are sure that you would've answered <b>No</b> to all the questions on the actual Health Screening ⚠️</li><br>
+  <li>Please make sure to use this only if you are sure that you would've answered <b>No</b> <br>to all the questions on the actual Health Screening. ⚠️</li><br>
 <li>If you have any issues or recommendations please contact me 😁</li><br>
 
 <h3>Please consider:</h3>
