@@ -22,4 +22,4 @@ function start(wait){
     },wait)
 }
 
-start(3000)
+start(1500)
