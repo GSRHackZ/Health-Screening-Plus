@@ -42,6 +42,7 @@
     max-width: 350px;
     margin-bottom: 50px;
     border-radius: 25px;
+    border: 1px solid rgba(211, 211, 211, 0.664);
     user-select: none;
     -webkit-user-drag: none;
 }
@@ -258,4 +259,3 @@
     margin-bottom: 200px;
     margin-top: 40%;
 }
-
