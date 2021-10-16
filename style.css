@@ -114,13 +114,20 @@
     font-family:Arial,sans-serif;
 }
 
+.top_inner_container h2{
+    max-height: 25px;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .top_inner_container img{
     width: 45px;
     margin-top: 12px;
     margin-bottom: -15px;
 }
 
-.top_inner_container div{
+#_status{
     margin-top: -10px;
     padding: 5px;
     padding-left: 15px;
@@ -138,6 +145,7 @@
     font-family: Arial,sans-serif;
     font-size: 15px;
     cursor: pointer;
+    user-select: none;
 }
 
 .mid_inner_container{
@@ -259,3 +267,4 @@
     margin-bottom: 200px;
     margin-top: 40%;
 }
+
