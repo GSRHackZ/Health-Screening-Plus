@@ -12,6 +12,7 @@ const html = document.getElementsByTagName("html")[0]
 let date_ = `${days[time("kronos").getDay()]}, ${monthNames[time("kronos").getMonth()]} ${time("kronos").getDate()}, ${time("kronos").getFullYear()} ${time("a")}`;
 nameDisplay.innerText=name_;
 dateDisplay.innerText = date_;
+dateDisplay.contentEditable=true;
 
 function time(mode){
     let kronos=new Date();
