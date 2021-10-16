@@ -11,14 +11,15 @@ Makes instant health screening certificates, just enter your name.
 
 <h3>Key points:</h3>
 <ul style="margin-bottom:10px;">
-<li>The certificate is dynamic, meaning you can bookmark the certificate & it will always be a new certificate. 😲</li><br>
+  <li>The certificate is dynamic, meaning you can bookmark the certificate & it will always be a new certificate. 😲</li><br>
   <li>You can change your status from <b>GUEST</b> to <b>STUDENT</b> by clicking it. It will save automatically to that stat &<br> turn it into your default. 😉</li><br>
   <li>This removes the need to constantly repeat the same repetitive task of clicking <b>No</b> a bunch of times. 🙌</li><br>
   <li>Please make sure to use this only if you are sure that you would've answered <b>No</b> <br>to all the questions on the actual Health Screening. ⚠️</li><br>
-<li>If you have any issues or recommendations please contact me 😁</li><br>
-
+  <li>You can also edit the details such as the name date and time whenever you like, just click on them. ✏</li><br>
+  <li>If you have any issues or recommendations please contact me 😁</li><br>
+</ul>
 <h3>Please consider:</h3>
 <ul>
-<li>Youtube:  <a style="color:red;" target="_Blank" href="https://www.youtube.com/channel/UCinBnZ2BKAbCKA1w9lmFd0w">Subscribe</a></li>
-<li>Instagram:  <a style="color:#dc2ef0;" target="_Blank" href="https://www.instagram.com/nyc.geahad.codes/">Follow</a></li>
+  <li>Youtube:  <a style="color:red;" target="_Blank" href="https://www.youtube.com/channel/UCinBnZ2BKAbCKA1w9lmFd0w">Subscribe</a></li>
+  <li>Instagram:  <a style="color:#dc2ef0;" target="_Blank" href="https://www.instagram.com/nyc.geahad.codes/">Follow</a></li>
 </ul>
