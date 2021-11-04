@@ -37,10 +37,13 @@ function time(mode){
 if(localStorage.getItem("stat")!==null){
     let savedStat = localStorage.getItem("stat");
     if(savedStat=="guest"){
-        _status.setAttribute("stat","student");
+        _status.setAttribute("stat","employee");
     }
     else if(savedStat=="student"){
         _status.setAttribute("stat","guest");
+    }
+    else if(savedStat=="employee"){
+        _status.setAttribute("stat","student");
     }
     setTimeout(function(){_status.click();},10)
 }
@@ -53,6 +56,12 @@ _status.addEventListener("click",function(){
         this.parentElement.style="background:#173f5f;color:white;transition:.6s;";
     }
     else if(this.getAttribute("stat")=="student"){
+        this.setAttribute("stat","employee");
+        this.innerText="DOE EMPLOYEE";
+        this.style.background="#ff8d1c";
+        this.parentElement.style="background:#173f5f;color:white;transition:.6s;";
+    }
+    else if(this.getAttribute("stat")=="employee"){
         this.setAttribute("stat","guest");
         this.innerText="GUEST";
         this.style.background="#617689";
@@ -71,5 +80,6 @@ function start(wait){
         splash.remove();
     },wait)
 }
+
 
 start(1200)
