@@ -11,6 +11,7 @@ Makes instant health screening certificates, just enter your name.
 
 <h3>Key points:</h3>
 <ul style="margin-bottom:10px;">
+  <li>This was made to be used on phones not computers. It will look really weird on devices with big screens. 😂</li><br>
   <li>The certificate is dynamic, meaning you can bookmark the certificate & it will always be a new certificate. 😲</li><br>
   <li>You can change your status from <b>GUEST</b> to <b>STUDENT</b> or <b>DOE EMPLOYEE</b> by clicking it. It will save automatically to that stat &<br> turn it into your default. 😉</li><br>
   <li>This removes the need to constantly repeat the same repetitive task of clicking <b>No</b> a bunch of times. 🙌</li><br>
