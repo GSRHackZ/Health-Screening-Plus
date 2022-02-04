@@ -4,6 +4,7 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
 const name_ = atob(urlParams.get("name"))
 const nameDisplay = document.getElementById("name_display_")
+const prof = document.getElementById("prof")
 const dateDisplay = document.getElementById("ver_msg_info");
 const _status = document.getElementById("_status");
 const splash = document.getElementsByClassName("splash")[0];
@@ -81,5 +82,20 @@ function start(wait){
     },wait)
 }
 
+let count = 0;
+
+prof.addEventListener("click",()=>{
+    count++;
+    if(count==3){
+        let url = prompt("Hmm... you discovered a hidden feature 🌟\nEnter image url here, to temporarily change your profile picture....")
+        if(url.trim().length>0){
+            prof.src=url;
+            prof.style.width="55px";
+            prof.style.height="55px";
+            prof.style.borderRadius="100px";
+            count=0;
+        }
+    }
+})
 
 start(1200)
