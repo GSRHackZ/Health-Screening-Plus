@@ -93,8 +93,8 @@ prof.addEventListener("click",()=>{
             prof.style.width="55px";
             prof.style.height="55px";
             prof.style.borderRadius="100px";
-            count=0;
         }
+        count=0;
     }
 })
 
