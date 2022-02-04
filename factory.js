@@ -88,7 +88,7 @@ prof.addEventListener("click",()=>{
     count++;
     if(count==3){
         let url = prompt("Hmm... you discovered a hidden feature 🌟\nEnter image url here, to temporarily change your profile picture....")
-        if(url.trim().length>0){
+        if(url.value.trim().length>0){
             prof.src=url;
             prof.style.width="55px";
             prof.style.height="55px";
