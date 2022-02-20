@@ -17,7 +17,7 @@ Makes instant health screening certificates, just enter your name.
   <li>This removes the need to constantly repeat the same repetitive task of clicking <b>No</b> a bunch of times. 🙌</li><br>
   <li>Please make sure to use this only if you are sure that you would've answered <b>No</b> <br>to all the questions on the actual Health Screening. ⚠️</li><br>
   <li>You can also edit the details such as the name, date and time whenever you like, just click on them. ✏</li><br>
-  <li>Fun little easter egg. Clicing the profile picture 3 times allows you to change it. 😉</li><br>
+  <li>Fun little easter egg. Clicking the profile picture 3 times allows you to change it. 😉</li><br>
   <li>If you have any issues or recommendations please contact me 😁</li><br>
 </ul>
 <h3>Please consider:</h3>
